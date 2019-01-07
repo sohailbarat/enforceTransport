@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Noticia Text';
+}
+header{
+    background-color: black;
+}
+header li{
+    line-height: 60px;
+    font-family: 'Noticia Text';
+}
+header a:link {
+    color: white !important;
+}
+header a:hover {
+    color: white;
+    border-bottom: 2px solid red;
+}
+header a:visited{
+    color: white !important;
+}  
+.carousel-item img{
+    height: 550px; 
+    width: 100%;
+}
+#aboutUsContent{
+    display: flex;
+    justify-content: center;
+}
+#aboutUsContent img{
+    height: 300px;
+}
+.more-info a:link {
+    color: red !important;
+}
+.more-info a:hover {
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.more-info a:visited{
+    color: white !important;
+}
+#servicesGlance img{
+    height: 150px;
+    width: 100%;
+}
+#servicesGlance {
+    background-image: url("images/highway-2951144.jpg");
+    height: 110%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer a:link {
+    color: white !important;
+}
+footer a:hover {
+    color: white;
+    border-bottom: 2px solid red;
+}
+footer a:visited{
+    color: white !important;
+}  
+.fas .fa-heart{
+    color: red !important; 
+}
+hr{
+    background-color: red;
+}
